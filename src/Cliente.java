@@ -1,4 +1,3 @@
-// Clase Cliente
 public class Cliente {
     private String nombre;
     private String cedula;

@@ -1,5 +1,4 @@
 import java.util.*;
-//clase main
 public class Main {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -253,6 +252,6 @@ public class Main {
                 }
                 default -> System.out.println("Opción no válida");
             }
-        }while(estado != 1);
+        }while(estado == 1);
     }
 }

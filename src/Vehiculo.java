@@ -1,4 +1,3 @@
-// Clase base Vehiculo
 public class Vehiculo {
     protected String marca;
     protected String modelo;
@@ -83,7 +82,6 @@ public class Vehiculo {
         System.out.println("Modelo: " + modelo);
         System.out.println("Año: " + ano);
         System.out.println("Precio por dia: " + precioPorDia);
-        System.out.println("Estado: " + estado);
     }
 
     public void alquilar() {

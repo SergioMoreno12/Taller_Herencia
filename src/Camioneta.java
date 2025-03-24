@@ -1,4 +1,3 @@
-// Subclase Camioneta
 public class Camioneta extends Vehiculo{
     private double capacidadCarga;
 
