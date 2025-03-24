@@ -11,7 +11,7 @@ public class Main {
         do{
             System.out.println("""
                     |==========================================|
-                    | Menú de Gestión de Alquiler de Vehículos |
+                    |                  Menú                    |
                     |==========================================|
                     | 1 | Registrar auto                       |
                     | 2 | Registrar camioneta                  |
@@ -121,7 +121,7 @@ public class Main {
                     switch (encontradoCliente){
                         case 0 -> {
 
-                            System.out.println("No esta registrado. Regístrese primero.");
+                            System.out.println("No esta registrado, regístrese primero");
 
                             do{
                                 System.out.println("Presione 1 para continuar");
@@ -231,7 +231,7 @@ public class Main {
                         if (vehiculo.getModelo().equalsIgnoreCase(modeloVehiculo) && !vehiculo.isEstado()) {
                             vehiculo.devolver();
                             vehiculo.setCliente(null);
-                            System.out.println("Vehículo devuelto exitosamente.");
+                            System.out.println("Vehículo devuelto exitosamente");
                         }
                     }
 
